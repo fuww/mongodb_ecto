@@ -23,7 +23,7 @@ defmodule Mongo.Ecto.Mixfile do
   defp deps do
     [
       {:mongodb, "~> 0.4.2"},
-      {:ecto, "~> 2.1.0"},
+      {:ecto, "~> 2.2.3"},
       {:dialyxir, "~> 0.5", only: :dev, runtime: false},
       {:excoveralls, "~> 0.8", only: :test},
       {:inch_ex, "~> 0.5", only: [:dev, :test]},
